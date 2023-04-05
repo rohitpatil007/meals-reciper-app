@@ -5,11 +5,11 @@
   padding: 0.5rem;
   width: 100%;
   height: 80px;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 .logoText {
   font-size: 3.5vmax;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: 0.8px;
   background: linear-gradient(to right, #8360c3, #2ebf91);
   -webkit-background-clip: text;
@@ -19,8 +19,8 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  gap: 1.2rem;
-  font-size: 2.5vmax;
+  gap: 5vmax;
+  font-size: 1.8vmax;
 }
 a {
   all: unset;

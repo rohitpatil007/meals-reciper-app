@@ -1,4 +1,47 @@
-background: #8025cf;
-background: linear-gradient(to right, #8025cf 36%, #2e63cf 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.homeWrapper {
+  text-align: center;
+  margin: auto;
+}
+
+.homeWrapper h1 {
+  font-size: 4.5vmax;
+  letter-spacing: 0.8px;
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homeWrapper h1:hover {
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homeWrapper p {
+  color: #b5b7bb;
+  letter-spacing: 0.8px;
+  font-size: 1.5vmax;
+}
+.homeWrapper p:hover {
+  color: #ffffff;
+}
+
+.inputWrapper {
+  text-align: center;
+}
+input {
+  all: unset;
+  width: 30vmax;
+  background-color: #222222;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+}
+input::placeholder {
+  letter-spacing: 1.5px;
+}
+input:focus {
+  border: 1px solid #8360c3;
+  border-radius: 10px;
+  box-shadow: 2px 2px #2ebf91;
+  outline-offset: 0px;
+  outline: none;
+}
