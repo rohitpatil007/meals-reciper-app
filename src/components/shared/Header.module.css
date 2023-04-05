@@ -6,11 +6,11 @@
   align-items: center;
   padding: 0.5rem;
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   gap: 1.5rem;
 }
 .logoText {
-  font-size: 4vmax;
+  font-size: 3.5vmax;
   font-weight: bold;
   letter-spacing: 0.8px;
   background: linear-gradient(to right, #8360c3, #2ebf91);
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-around;
   gap: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 2.5vmax;
 }
 a {
   all: unset;
