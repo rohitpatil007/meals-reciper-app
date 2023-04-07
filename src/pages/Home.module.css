@@ -26,7 +26,18 @@
 
 .inputWrapper {
   text-align: center;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
+.inputWrapper img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
 input {
   all: unset;
   width: 30vmax;
@@ -44,4 +55,13 @@ input:focus {
   box-shadow: 2px 2px #2ebf91;
   outline-offset: 0px;
   outline: none;
+}
+.cardWrapper {
+  margin: 40px;
+  display: flex;
+  gap: 35px;
+  margin-top: 25px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
