@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 
 import { Fragment } from "react";
-// import Card from "../components/UI/Card";
+import Card from "../components/UI/Card";
 import SearchIcon from "../assets/search.png";
 
 const Home = () => {
@@ -15,12 +15,12 @@ const Home = () => {
         <input type="text" placeholder="search your meal here..."></input>
         <img src={SearchIcon} alt="search-icon" />
       </div>
-      {/* <div className={classes.cardWrapper}>
+      <div className={classes.cardWrapper}>
         <Card></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
-      </div> */}
+      </div>
     </Fragment>
   );
 };

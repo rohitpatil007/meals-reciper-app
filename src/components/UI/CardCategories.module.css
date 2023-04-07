@@ -1,0 +1,13 @@
+.cardCategoryWrapper {
+  text-align: center;
+  cursor: pointer;
+}
+.cardCategoryWrapper:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #2ebf91, #8360c3) 1;
+}
+img {
+  padding: 10px;
+  width: 180px;
+}
