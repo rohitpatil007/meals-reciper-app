@@ -4,6 +4,6 @@
   flex-direction: column;
   align-items: center;
 }
-img {
+.mealImg {
   width: 350px;
 }

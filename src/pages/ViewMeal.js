@@ -3,7 +3,7 @@ import beefImg from "../assets/beef.png";
 const ViewMeal = () => {
   return (
     <div className={classes.viewMealWrapper}>
-      <img src={beefImg} alt="Meal-img" />
+      <img className={classes.mealImg} src={beefImg} alt="Meal-img" />
       <h1>Instructions</h1>
       <p>
         Heat the oil in a frying pan that has a lid, then soften the onions,

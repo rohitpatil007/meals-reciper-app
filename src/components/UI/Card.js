@@ -6,7 +6,7 @@ const Card = () => {
     <Fragment>
       <div className={classes.cardContainer}>
         <div className={classes.imagWrapper}>
-          <img src={img} alt="foodImg" />
+          <img className={classes.foodImg} src={img} alt="foodImg" />
         </div>
         <div className={classes.recipeIno}>
           <h1>Canadian Butter Tarts</h1>
